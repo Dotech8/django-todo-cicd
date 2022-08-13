@@ -1,7 +1,7 @@
 FROM python:3
 
 #RUN apt install -y python3-pip
-RUN apt install django
+RUN pip install django
 
 COPY . .
 
